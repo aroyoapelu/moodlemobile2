@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.moodle.moodlemobile" version="6.3.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.moodle.moodlemobile" version="3.4.2">
   <name>Moodle Mobile</name>
   <description>
         Moodle Mobile official app
@@ -60,8 +60,10 @@
   <plugin name="cordova-universal-clipboard" spec="0.1.0" />
   <plugin name="nl.kingsquare.cordova.background-audio" spec="1.0.1" />
 
-  <plugin name="phonegap-plugin-push" spec="2.2.3">
-      <variable name="SENDER_ID" value="694767596569" />
+
+  <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.4">
+      <param name="SENDER_ID" value="694767596569" />
+</plugin>
   </plugin>
   <plugin name="cordova-plugin-customurlscheme" spec="4.4.0">
       <variable name="URL_SCHEME" value="moodlemobile" />
