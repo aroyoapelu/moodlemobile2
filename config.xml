@@ -38,7 +38,7 @@
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
 
-  <engine name="android" spec="6.3.0" />
+  <engine name="android" spec="6.1.0" />
   <engine name="ios" spec="4.3.1" />
 
   <plugin name="cordova-plugin-file" specs="6.0.1" />
