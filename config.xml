@@ -62,7 +62,7 @@
 
 
   <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.4">
-      <param name="SENDER_ID" value="694767596569" />
+      <variable name="SENDER_ID" value="694767596569" />
 </plugin>
   </plugin>
   <plugin name="cordova-plugin-customurlscheme" spec="4.4.0">
